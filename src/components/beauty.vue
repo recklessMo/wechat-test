@@ -81,7 +81,17 @@
 </script>
 
 <style lang="less">
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
   .m-img {
+    animation: fadeIn 2s 2s infinite;
     padding-bottom: 50%;
     display: block;
     position: relative;
